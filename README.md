@@ -1,0 +1,2 @@
+# DjangoCRMExamples
+DJango çalışmaları
