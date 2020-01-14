@@ -1,4 +1,4 @@
-#!/home/ukt/Masaüstü/blog/venv/bin/python
+#!/home/ukt/PycharmProjects/DjangoCRMExamples/venv/bin/python3.6
 # -*- coding: utf-8 -*-
 import re
 import sys
