@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<h3>Stoğa Cihaz Ekle</h3>
+<hr style="border-color:gray;">
+
+<form method="post">
+    {% csrf_token %}
+    {{formcihaz.as_p}}
+    <button type="submit" class="btn btn-danger" disabled>Stoğa Ekle</button><br><br>
+    <footer class="blockquote-footer">Şu an stoğa cihaz eklenemiyor. Lütfen daha sonra tekrar deneyin.</footer>
+</form><br>
+
+
+{% endblock body %}

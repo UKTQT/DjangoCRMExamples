@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "article",
     "user",
+    "django_tables2"
 ]
 
 MIDDLEWARE = [
@@ -81,9 +82,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
+        'USER': 'ufuk',
+        'PASSWORD': 'Ukt_2699',
+        'HOST': '185.207.37.66',
         'PORT': '3306',
         'OPTIONS': {
             'sql_mode': 'traditional',

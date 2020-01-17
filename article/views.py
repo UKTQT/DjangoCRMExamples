@@ -16,3 +16,6 @@ def about(request):
 def kullanici(request):
     return render(request,"kullanici.html")
 
+def cihaz(request):
+    return render(request,"cihaz.html")
+
